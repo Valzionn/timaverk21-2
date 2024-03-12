@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Settings</h1>
+    <p><a href="index.html">Go to Main Page</a></p>
+
+    <!-- Your settings input fields and button -->
+    <label for="increment">Increment Value:</label>
+    <input type="number" id="increment" min="1" max="10">
+    <br>
+    <label for="limit">Limit:</label>
+    <input type="number" id="limit" min="-50" max="50">
+    <br>
+    <button onclick="saveSettings()">Save Settings</button>
+
+    <script src="settings.js"></script>
+</body>
+</html>
